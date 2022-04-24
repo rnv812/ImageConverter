@@ -10,6 +10,7 @@ You can drop one or many images to the area per time.
 
 ## Preview
 ![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/preview.jpg)
+![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/preview.gif)
 
 ## Installation
 ### Building executable file
