@@ -11,13 +11,23 @@ You can drop one or many images to the area per time.
 ## Preview
 ![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/preview.jpg)
 
-## Build
+## Installation
+### Building executable file
 You can use _**pyinstaller**_ for building executable app.  
 1. Install _**pyinstaller**_ with ```pip install pyinstaller``` command
-2. Run command ```pyinstaller --onefile --icon=icon.ico --noconsole main.py``` from the directory where ```main.py``` located
-   
+2. Run command ```pyinstaller --onefile --icon=icon.ico --noconsole main.py``` from the directory where ```main.py``` is located  
+
 After completing the process you will find executable file in ```dist``` folder.  
 ```Mainwindow.ui``` is neccessary dependency that provides user interface of application, thus after building don't delete this file.  
+
+### Using original package
+If you don't need executable file and you want to run program rigth with python interpreter you have to install neccessary packages in global or local environment.
+Use these commands to install neccessary packages:
+- ```pip install pillow```
+- ```pip install pillow-avif-plugin```
+- ```pip install pyqt5```  
+
+Note: Change extension of package from ```.py``` to ```.pyw``` for hiding console when script is running.
 
 ## References
 Icon: <a href="https://www.flaticon.com/free-icons/color-adjustment" title="color adjustment icons">Color adjustment icons created by Hilmy Abiyyu A. - Flaticon</a>  
