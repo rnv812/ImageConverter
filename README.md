@@ -31,6 +31,7 @@ Note: Change extension of package from ```.py``` to ```.pyw``` for hiding consol
 
 ## References
 Icon: <a href="https://www.flaticon.com/free-icons/color-adjustment" title="color adjustment icons">Color adjustment icons created by Hilmy Abiyyu A. - Flaticon</a>  
+![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/icon.ico)
 
 Libraries: 
 - <a href="https://www.riverbankcomputing.com/static/Docs/PyQt5/">PyQt5</a>  
