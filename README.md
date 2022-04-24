@@ -9,8 +9,7 @@ Results are saving in the same folder where the source image located.
 You can drop one or many images to the area per time.
 
 ## Preview
-![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/preview.jpg)
-![alt tag](https://github.com/Thermazote/ImageConverter/raw/master/preview.gif)
+<img width="600" src="https://github.com/Thermazote/ImageConverter/raw/master/preview.gif">
 
 ## Installation
 ### Building executable file
