@@ -17,7 +17,7 @@ class Window(QtWidgets.QMainWindow):
         self.convert_button.clicked.connect(self.convert_images)
 
         self.setWindowTitle("Image Converter")
-        self.setWindowIcon(QIcon('icon.png'))
+        self.setWindowIcon(QIcon('icon.ico'))
 
         self.POSSIBLE_FORMATS = ['jpg', 'avif', 'bmp', 'ico', 'png', 'tiff', 'webp']
         self.dropped_images_paths = []
@@ -91,7 +91,7 @@ class Window(QtWidgets.QMainWindow):
     @staticmethod
     def show_critical_message(e: Exception):
         message = QMessageBox()
-        message.setWindowIcon(QIcon('icon.png'))
+        message.setWindowIcon(QIcon('icon.ico'))
         message.setWindowTitle("Warning")
         message.setIcon(QMessageBox.Warning)
         message.setText("Warning")
